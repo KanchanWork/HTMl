@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+<style>
+    /* selector points to the HTML element you want to style.
+    Each declaration includes a CSS property name and a value, separated by a colon.
+    Simple selectors (select elements based on name, id, class) */
+    body{
+        background-color: aquamarine;
+        color: rgb(232, 232, 241);
+        text-align: center;
+        font-family:'Times New Roman', Times, serif ;
+        font-size: 20px;
+        background-image: url(unma-desai-LrFHBB72cXQ-unsplash.jpg);
+    }
+    #para1,p,ul{ 
+        text-align: left;
+        color: rgb(51, 231, 15);
+        font-style: italic;
+        background-image: url(visax-e5AjQ3Wzfbg-unsplash.jpg);
+    }
+    h1.center {
+        text-align: left;
+        color: rgb(51, 231, 15);
+        font-style: italic;
+        background-image: url(unma-desai-LrFHBB72cXQ-unsplash.jpg);
+    }
+    .center {
+        text-align: left;
+        color: rgb(51, 231, 15);
+        font-style: italic;
+        background-image: url(visax-e5AjQ3Wzfbg-unsplash.jpg);
+    }
+    
+
+
+    
+</style>
+</head>
+<body>
+   <h1>CSS Attributes</h1> 
+ <h3> CSS id Selector</h3>
+ <p id="para1" width="800" height="300">  id selector uses the id attribute of an HTML element to select a specific element. <br>
+    To select an element with a specific id, write a hash (#) character, followed by the id of the element.
+ </p>
+
+ <h3> CSS Class Selector</h3>
+ <p class="center">The class selector selects HTML elements with a specific class attribute. <br>
+
+    To select elements with a specific class, write a period (.) character, followed by the class name.
+</p>
+<h1 class="center"> This heading will not  get affected</h1>
+
+<h3>CSS Universal Selector</h3>
+<p>Every element on the page will get affected . write * for universal selector</p><br>
+
+<h3>CSS Grouping Selector</h3>
+<p>grouping selector selects all the HTML elements with the same style definitions.</p>
+
+<h3>Three Ways to Insert CSS</h3>
+<ul class="center">
+    <li>Inline CSS</li>
+    <li>Internal CSS</li>
+    <li>External CSS</li>
+</ul> <br>
+<p>Inline CSS: unique style for a single element.</p>
+<p>Internal CSS: single HTML page has a unique style.</p>
+<p>External CSS: you can change the look of an entire website by changing just one file!
+
+    Each HTML page must include a reference to the external style sheet file inside the <link> element, inside the head section.</p>
+
+</html>

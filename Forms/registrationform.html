@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=form, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<P> An <strong>HTML</strong>  form is a section of a document which contains controls such as text fields,<br> 
+    password fields, checkboxes, radio buttons, submit button, menus etc.An HTML form for<br>
+    facilitates the user to enter data that is to be sent to the server processing such as <br>
+    name, email address, password, phone number, etc.HTML forms are required if you want to collect some data</p>
+    <style>
+        table {border: 2px; background-color: rgb(226, 112, 188);}
+        th {background-color: rgb(240, 43, 53); border: 2px;}
+        tr{background-color: rgb(228, 169, 92); border: 2px;}
+        body{background-color: rgb(207, 230, 144);}
+        
+    </style>
+    <table>
+        <th>Tags</th>
+        <th>Description</th>
+        <tr cellspacing="20">
+            <td >Form tag </td>
+            <td>By the user side we can enter inputs in html form</td>
+        </tr>
+        <tr>
+            <td>input tag</td>
+            <td>Take input from user</td>
+        </tr>
+        <tr>
+            <td>label tag</td>
+            <td>It defines a label for an input element.</td>
+        </tr>
+        <tr>
+            <td>select tag</td>
+            <td>It defines a drop-down list.</td>
+        </tr>
+        <tr>
+            <td>Button tag</td>
+            <td>It defines a clickable button.</td>
+        </tr>
+    </table>
+    
+    
+    <br>
+    
+    
+    <fieldset style="width : 200px ; background-color: rgb(87, 196, 123); height: 650px;"  >
+    <h1>Registration Form</h1><hr>
+    <form action=""> 
+        
+        <!-- fieldset is for grouping information and legend for caption and &nbsp for spacing-->
+        <fieldset style="width : 400px; background-color: rgb(116, 207, 147); height: 550px; ">
+        <legend><h2>User Information </h2></legend>
+        Enter Your FirstName :  <input type="text" name="username" required placeholder="Enter Your FirstName" style="box-shadow:  1px 3px rgba(10, 11, 11, 0.31);"><br><br>
+        Enter Your LastName  :  <input type="text" name="username" required placeholder="Enter Your LastName" style="box-shadow:  1px 3px rgba(10, 11, 11, 0.31);"> <br><br>
+        Enter Mobile Number  :  <input type="text" name="username" required maxlength="10" minlength="10" placeholder="Enter Your Mobile Number" style="box-shadow:  1px 3px rgba(10, 11, 11, 0.31);"> <br><br>
+        Enter Your Password :   &nbsp;<input type="password" name="password" required placeholder="Enter Your Password" style="box-shadow:  1px 3px rgba(10, 11, 11, 0.31);"> <br><br>
+        Enter Your Email    :   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email" name="email" required placeholder="Enter Your Email" style="box-shadow:  1px 3px rgba(10, 11, 11, 0.31);"> <br><br>
+          Enter Your Gender   :   <input type="radio" name="abc" required> Male
+                                <input type="radio" name="abc" required> Female<br><br>
+                               
+        Enter Today's Date :    <input type="date"><br><br>
+        Enter Your Hobby    :   &nbsp;<input type="checkbox" name="">Cricket
+                                <input type="checkbox" name="">Vollyball
+                                <input type="checkbox" name="">Badminton<br><br>
+        Enter Your Address   : <br>  
+                                <textarea name="" id="" cols="45" rows="5" style="box-shadow:  1px 3px rgba(10, 11, 11, 0.31);"></textarea required> <br>
+                                
+         Select Country     :   <select name="country" id="" width="200px">
+                                <option value="India">India</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Australia">Australia</option>
+                                </select> <br><br>
+                                <input type="submit" value="submit">&nbsp;<span style="font-size: 20px;">&#128538</span>
+       <!-- <label for="quantity">Quantity (between 1 and 5):</label>
+    <input type="number" id="quantity" name="quantity" min="1" max="5"><br>
+   -->
+        </fieldset>
+    
+    </form>
+</fieldset>
+
+</body>
+</html>

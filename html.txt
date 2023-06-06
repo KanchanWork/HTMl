@@ -1,0 +1,37 @@
+Html
+how to run--right click-open with liver server
+ how to save --ctrl+s  or go to file and select "auto save" it will automatically save
+For comments and removing comments use same--ctrl+/
+vscode(visualcode) download
+extensions : live server,prettier, snippet
+
+shift+alt+downkey for (copypaste)
+shift+exclamatory sign+enter (for html structure)
+alt+down arrow for shifting
+(got to file - type cmd- enter -code . ) for opening vsstudio
+
+(for downloading youtube viedo write 000 in place of you in youtube)
+
+Using CSS border property To add borders to your table using CSS, 
+you just need to use this border property in your style tag or in a CSS file. 
+Here is the required CSS code to add borders to your table.
+<style>
+table,th,tr ,td {
+border : 2px solid black;
+}
+Using padding, we have added space between the data stored and borders of a cell,
+while border-spacing is to add space between the borders of the cells of a table.
+
+html file paths :--
+(./) for inner folder
+(../  )for accessing  another file of another folder(outer folder)
+border--property
+2px --dimension
+ solid--- structure(it will be doted,double)
+black --color
+
+
+Attributes of table tag
+bgcolor ,cellspacing ,cellpadding=20px
+
+sir today i perform testing on all the ui and also makes sure that everything is as per requirement or design
