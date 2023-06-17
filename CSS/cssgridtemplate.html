@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap'); */
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'poppins' , sans-serif;
+            background: url(taneli-lahtinen-suSwPNTaQ5Q-unsplash.jpg);
+            background-size: cover;
+        }
+        ul{
+            list-style-type: none;
+        }
+        a{
+            text-decoration: none;
+            color: white;
+        }
+        h1{
+            color:black;
+            margin: 16px 0;
+            font-weight: 800;
+        }
+        h3{
+            /* top & bottom 16px and left & right 0px */
+            margin: 16px 0;
+            font-weight: 800;
+        }
+        p{
+            margin: 16px 0;
+            line-height:1.75 ;
+            font-weight: 400;
+        }
+        img{
+            max-width: 100%;
+            height: auto;
+            margin-top: 15px;
+        }
+        /* Navigation */
+        .header{
+            line-height: 100px;
+        }
+        nav{
+            display: flex;
+            
+            justify-content: space-between;
+            margin: 0 auto;
+            width: 70%;
+        }
+        
+        nav ul li{
+            display: inline;
+            padding: 0 16px;
+            
+        }
+        nav ul li a{
+            color: white;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 20px;
+        }
+        .mobile{
+            display: none;
+        }
+        .blog-post h1{
+            color: red;
+            
+        }
+        .blog-post a{
+            color: rgb(36, 95, 173);  
+        }
+        .blog-post{
+            padding: 32px;
+        }
+
+        .Container{
+            display: grid;
+            grid-template-columns: repeat(3,1fr) ;
+            grid-template-rows: 100px auto 100px;
+            height: 100vh;
+            width: 100%;
+            margin: 0 auto;
+            /* grid-template-areas: 'header header header'; */
+        }
+        .header{
+            background-color:rgb(145, 132, 132);
+            /* grid-column-start: 1 ;
+            grid-column-end: 4; */
+            grid-column-start: span 3;
+            /* grid-area: 1/1/2/4; */
+            /* grid-area: header; */
+        }
+        .aside{
+            background-color: rgb(79, 89, 92);
+            grid-column-start: span 1;
+            padding: 60px;
+            /* position: fixed; */
+            
+        }
+        .comments ,.Archives{
+            margin-top: 60px;
+        }
+        .main{
+            background-color: rgb(196, 202, 185);
+            grid-column-start: span 2;
+            width: 80%;
+        }
+        .footer{
+            background-color:rgb(109, 99, 99);
+            grid-column-start: span 3;
+            text-align: center;
+            display: flex;
+            align-items:center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="Container">
+    <div class="header">
+        <nav>
+        <div class="logo">
+            <h2 style="color:white;">Axiom TechGuru</h2>
+        </div> 
+        <ul> 
+            <strong>
+                <li><a href="####">Home</a></li>
+                <li><a href="####">About Us</a></li>
+                <li><a href="####">Contact</a></li>
+                <li><a href="####">Services</a></li>
+            </strong>
+        </ul>
+        <a href="#" class="mobile">&#9776;</a>
+        </nav>
+    </div>
+    <div class="aside"> 
+        <div class="post">
+            <h1>Html Section</h1>
+            <h3>
+            <ul> 
+                <li><a href="####">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </a></li>
+                <li><a href="####">Quam vel voluptates illum praesentium necessitatibus </a></li>
+                <li><a href="####">voluptatum dolores explicabo nesciunt nostrum molestiae dignissimos, nihil atque reiciendis corrupti. Aliquid, vel?</a></li>   
+            </ul>
+            </h3> 
+        </div> 
+     
+        <div class="comments">
+            <h1>CSS Section</h1> <h3>
+            <ul>
+            <li><a href="####">Lorem, ipsum dolor  </a></li>
+            <li><a href="####">Quam vel voluptates</a></li>
+            <li><a href="####">lorem ipsum</a></li>
+            </ul></h3>
+        </div> 
+        <div class="Archives">
+            <h1>Figma Section</h1><h3>
+            <ul>
+            <li><a href="####">Lorem, ipsum dolor sit amet consectetur adipisicing elit. </a></li>
+            <li><a href="####">Quam vel voluptates illum praesentium necessitatibus natus fugiat </a></li>
+            <li><a href="####">voluptatum dolores explicabo nesciunt nostrum molestiae dignissimos, fugit, nihil atque reiciendis corrupti. Aliquid, vel?</a></li>
+            </ul></h3>
+        </div> 
+    </div>
+    <div class="main"> 
+        <div class="blog-post">
+            <div class="meta">
+                <h1>Blog-Post</h1>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <small>By <a href="">Admin</a> On April 27,2023</small>
+            </div>
+            <div class="post">
+                <img src="sava-bobov-AYmUgOqRoGA-unsplash.jpg" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="">...</a>
+                </p>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="meta">
+                <h1>Sea Beach</h1>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <small>By <a href="">Admin</a> On April 27,2023</small>
+            </div>
+            <div class="post">
+                <img src="sava-bobov-AYmUgOqRoGA-unsplash.jpg" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="">...</a>
+                </p>
+            </div>
+        </div>
+        <div class="blog-post">
+            <div class="meta">
+                <h1>Mountain</h1>
+                <h3>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h3>
+                <small>By <a href="">Admin</a> On April 27,2023</small>
+            </div>
+            <div class="post">
+                <img src="sava-bobov-AYmUgOqRoGA-unsplash.jpg" alt="">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. <a href="">...</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="footer"> 
+        <p>G-5, Anand Rajani Apartment, Opp Datta Mandir, IT Park Road, Nagpur <p>
+		
+			<p>Ph: 9730613259 | E-mail: kanchanbhandakkar28@gmail.com </p>
+    </div>
+
+</div>
+</body>
+</html>

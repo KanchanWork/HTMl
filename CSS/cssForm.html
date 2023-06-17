@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form{
+            margin: auto ;
+            border-collapse: collapse;
+            background-color: rgb(236, 234, 234);
+            width: 450px;
+            padding: 20px;
+        }
+        input[type=text],select,label
+        {
+            display: inline-block;
+            width: 90%;
+            height: 30px;
+            margin-left: 20px;
+            border: none;
+            
+            
+        }
+        input[type=Button]{
+            color: rgb(8, 3, 3);
+            background-color: rgb(96, 216, 96);
+            width: 90%;
+            text-align: center;
+            height: 40px;
+            border-radius: 2px;
+            cursor: pointer;
+            border: none;
+            padding: 10px;
+            margin-left: 20px;
+        }
+        input[type=Button]:hover {
+            background-color: rgb(151, 226, 90);
+        }
+        input[type=text]:focus{
+            background-color: rgb(181, 214, 203);
+            border: 1px solid #e7e1e1;
+        }
+        
+        /* input[type=text] {
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+} */
+       input[type=text] {
+        background-image: url('searchicon.png');
+       }
+    </style>
+</head>
+<body> 
+    <h2> <center>Using CSS to style an Html Form</center></h2> <br>
+    <div class="form">
+    <form action="">
+        <label for="FName">First Name</label> <br> 
+        <input type="text" placeholder="Enter Name"><br> <br>
+        <label for="LName">Last Name</label> <br> 
+        <input type="text" placeholder="Last Name"><br> <br>
+        <label for="country">Country</label> <br> 
+        <select name="country" id="country" > <br> 
+        <option value="India">India</option>
+        <option value="Canada">Canada</option>
+        <option value="Germany">Germany</option>
+        </select> <br><br>
+        <input type="button" value="Submit">
+        <br> <br>
+        
+    </form>
+    </div>
+    
+</body>
+</html>

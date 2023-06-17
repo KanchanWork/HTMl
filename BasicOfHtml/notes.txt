@@ -27,6 +27,7 @@ border--property
  solid--- structure(it will be doted,double)
 black --color
 
+picwish.com===for removing background
 
 Attributes of table tag
 bgcolor ,cellspacing ,cellpadding=20px

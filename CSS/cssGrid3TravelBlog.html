@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  grid-area: header;
+  background-color: #cfc9c9;
+  padding: 0px;
+  text-align: left;
+  font-size: 20px;
+  display: flex;
+  
+}
+.ax
+{
+  margin-left: 850px; 
+  margin-top: 29px;
+}
+
+  
+
+/* The grid container */
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+    'header header header header ' 
+    'left left middle middle ' 
+    'footer footer footer footer ';
+  /* grid-column-gap: 10px; - if you want gap between the columns */
+} 
+
+.left,
+.middle,
+.right {
+  padding: 5px;
+  height: 400px; 
+  text-align: center;
+}
+
+/* Style the left column */
+.left {
+  grid-area: left;
+  background-image: url(Machu_Picchu\,_Peru.jpg);
+  width: auto;
+  height: auto;
+
+}
+
+/* Style the middle column */
+.middle {
+  grid-area: middle;
+  justify-content: center;
+ 
+}
+
+
+
+/* Style the footer */
+.footer {
+  grid-area: footer;
+  background-color: #413838;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+</style>
+</head>
+<body>
+
+<h2>CSS Template using Grid</h2>
+
+
+<div class="grid-container">
+  <div class="header">
+    <h2 style="font-family:  Georgia, 'Times New Roman', Times, serif; text-shadow: 1.5px 2px;">TRAVEL BLOG</h2>
+     <img src="icons8-menu-squared-50.png" alt="" width="30px" height="30px" class="ax">
+  </div>
+  
+  <div class="left" style="background-color: #cfc9c9;">
+    
+  </div>
+  <div class="middle" style="background-color:#f1efef;"> <h2 style="text-align: left;">The Algarve, Portugal</h2> 
+   <h5 style="text-align: left; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: #a5a2a2;"> While there is no denying that winter sea swimming is reserved for the fearless, <br>
+     there is still some good surf and sun-kissed days to be had.  <br>
+     With over 300 sunny days a year and heavily discounted prices outside summer, <br>
+    the off-season in the Algarve is a good gamble to get your winter Vitamin C.</h5>
+    <img src="travelblogpic.jpg" alt="" width="170px" height="200px" style="margin-left: -300px; ">
+    <img src="Tb2.jpg" alt="" width="160px" height="160px" >
+    <img src="Tb1.jpg" alt="" width="160px" height="160px">
+    <img src="Tb3.jpg" alt="" width="160px" height="160px">
+    <img src="karsten-winegeart-JusfYMAUyGs-unsplash.jpg" alt="" width="160px" height="160px">
+</div>  
+  
+  
+  <div class="footer"><h6 style="color: aliceblue; font-family: Georgia, 'Times New Roman', Times, serif;">
+    <p>G-5, Anand Rajani Apartment, Opp Datta Mandir, IT Park Road, Nagpur <p>
+    <p>Opposite Datta Mandir, Maharashtra, India <strong>440022</strong></p>
+    <p>Ph: 9730613259 | E-mail: kanchanbhandakkar28@gmail.com </p> </h6> 
+    <a href="####"><img src="icons8-facebook-48.png" alt="" width="30px" height="30px"></a>
+    <a href="####"><img src="icons8-twitter-circled-48.png" alt="" width="30px" height="30px"></a>
+    <a href="####"><img src="icons8-google-48.png" alt="" width="30px" height="30px"></a>
+            
+  </div>
+</div>
+
+</body>
+</html>
+
+
